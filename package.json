@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-transform-jsx-px2vw",
+  "version": "0.0.1",
+  "description": "babel plugin for jsx style ",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "babel src -d lib",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurisa/babel-plugin-transform-jsx-px2vw.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "Yurisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yurisa/babel-plugin-transform-jsx-px2vw/issues"
+  },
+  "homepage": "https://github.com/Yurisa/babel-plugin-transform-jsx-px2vw#readme"
+}
